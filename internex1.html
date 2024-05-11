@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" contact="width=device-width,initial-scale=1.0">
+        <title>Online Application</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <h1>Online Job Application Form</h1>
+
+        <h2>Personal Details</h2>
+
+        <table>
+
+            <tr>
+                <td>First name</td>
+                <td><input type="text" placeholder="First name"> </td> 
+                <td> Middle Name</td>
+                <td><input type="text" placeholder="Middle name"></td>
+                <td>Last name</td>
+                <td><input type="text" placeholder="Last name"></td>
+            </tr>
+            <tr>
+                <td>Father's Name</td>
+                <td><input type="text" placeholder="Father name"></td>
+                <td>Mother's Name</td>
+                <td><input type="text" placeholder="mother name"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth </td>
+                <td><input type="date"></td>
+                <td>Place of Birth</td>
+                <td><input type="text" placeholder="place of birth"></td>
+            </tr>
+            <tr>
+                <td>Select Gender:</td>
+                <td><input type="radio" value="male">male</td>
+                <td><input type="radio" value="female">female</td>
+                </tr>
+                <tr>
+                    <td><b>Contact Details</b></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="text" placeholder="+91 999*****"></td>
+                    <td>Email Id</td>
+                    <td><input type="email" placeholder="your id @ gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Language Known:</td>
+                    <td><input type="checkbox">English</td>
+                    <td><input type="checkbox">Bengali</td>
+                    <td><input type="checkbox">Hindi</td>
+                </tr>
+                <tr>
+                    <td>Your mother tongue</td>
+                    <td>
+                    <select id="language">
+                        <option value="English">English</option>
+                        <option value="tamil">Tamil</option>
+                        <option value="telugu">telugu</option>
+                        <option value="malayalam">malayalam</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Aadhar Number</td><td><input type="text" placeholder="aadhar number"></td>
+                    <td>Pan Card Number</td>
+                    <td> <input type="text" placeholder="Pan card number"></td>
+                </tr>
+        </table>
+
+
+        <h2>Address Details</h2>
+
+    
+        <table>
+            <tr>
+                <td><h3><b>A)Present Address</b></h3></td>
+            </tr>
+            <tr>
+                <td>Nationality</td>
+                <td><input type="radio">Indian</td>
+                <td><input type="radio">Others</td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input list="state" placeholder="State name">
+                <datalist id="state">
+                    <option value="TamilNadu"></option>
+                    <option value="kerala"></option>
+                </datalist></td>
+            </tr>
+            <tr>
+                <td>District</td>
+                <td><select id="District">
+                    <option value="madurai">madurai</option>
+                    <option value="thanjavur">thanjavur</option>
+                    <option value="theni">theni</option>
+                    <option value="chennai">chennai</option>
+                </select></td>
+            </tr>
+            <tr><td>Police Station</td>
+            <td><select id="ps">
+                <option value="madurai">dindugal</option>
+                <option value="dindugal">madurai</option>
+            </select></td></tr>
+            <tr>
+                <td>Ward No.</td>
+                <td><input type="text"></td>
+                <td>Vill/Panjayat/House No/Road:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+            <td>Post Office</td>
+            <td><input type="text" placeholder="Post Office"></td>
+            <td>Pin Code</td>
+            <td><input type="text" placeholder="Pin Code"></td>
+           </tr>
+           <tr>
+            <td><h3><b>B)Present Address</b></h3></td>
+           </tr>
+           <tr>
+            <td>Same as Present Address</td>
+            <td><input type="radio">Yes</td>
+            <td><input type="radio">No</td>
+           </tr>
+           <tr>
+            <td>Nationality</td>
+            <td><input type="radio">Indian</td>
+            <td><input type="radio">Others</td>
+           </tr>
+           <tr>
+            <td>State</td>
+            <td><input list="state" placeholder="State name">
+            <datalist id="state">
+                <option value="TamilNadu"></option>
+                <option value="kerala"></option>
+            </datalist></td>
+           </tr>
+        </table>
+        <div class="container">
+        <button type="button" onclick="alert('successfully applied')">Submit</button>
+        </div>
+        
+    </body>
+</html>
